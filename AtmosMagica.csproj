@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{838cd927-28c7-423a-b765-6ede76c36ac5}</ProjectGuid>
+    <ProjectGuid>{838CD927-28C7-423A-B765-6EDE76C36AC5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AtmosMagica</RootNamespace>
@@ -32,55 +32,42 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-
-
-    <Reference Include="Microsoft.CSharp"/>
-
-    <Reference Include="System.Data"/>
-
-    <Reference Include="System.Net.Http"/>
-
-    <Reference Include="System.Xml"/>
-
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
     <Reference Include="VintagestoryAPI">
-      <HintPath>D:\Program Files (x86)\Vintagestory\VintagestoryAPI.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_PATH)\VintagestoryAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="VSSurvivalMod">
-      <HintPath>D:\Program Files (x86)\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_PATH)\Mods\VSSurvivalMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="VSEssentials">
-      <HintPath>D:\Program Files (x86)\Vintagestory\Mods\VSEssentials.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_PATH)\Mods\VSEssentials.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="VSCreativeMod">
-      <HintPath>D:\Program Files (x86)\Vintagestory\Mods\VSCreativeMod.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_PATH)\Mods\VSCreativeMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\Program Files (x86)\Vintagestory\Lib\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_PATH)\Lib\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    
   </ItemGroup>
   <ItemGroup>
-    
+    <Compile Include="AtmosMagicaCore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
-
     </PostBuildEvent>
   </PropertyGroup>
 </Project>
