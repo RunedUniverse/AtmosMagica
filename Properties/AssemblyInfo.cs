@@ -11,7 +11,7 @@ using Vintagestory.API.Common;
 //[assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("RunedUniverse")]
 //[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("Copyright ©  2020 RunedUniverse")]
+[assembly: AssemblyCopyright("Copyright © 2020 RunedUniverse")]
 
 //[assembly: AssemblyTrademark("")]
 //[assembly: AssemblyCulture("")]
