@@ -64,12 +64,12 @@
   <ItemGroup>
     <Compile Include="AtmosMagicaCore.cs" />
     <Compile Include="Environment\Atmosphere.cs" />
-    <Compile Include="Environment\ElementalMagicaRegistry.cs" />
-    <Compile Include="Environment\ElementalMagica.cs" />
+    <Compile Include="Environment\Types\ElementalMagica.cs" />
     <Compile Include="Environment\IMagicaComponent.cs" />
     <Compile Include="Environment\Magica.cs" />
-    <Compile Include="Environment\NaturaMagica.cs" />
-    <Compile Include="Environment\SourceMagica.cs" />
+    <Compile Include="Environment\Types\MagicaType.cs" />
+    <Compile Include="Environment\Types\NaturaMagica.cs" />
+    <Compile Include="Environment\Types\SourceMagica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

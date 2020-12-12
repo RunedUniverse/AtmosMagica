@@ -17,6 +17,10 @@ namespace AtmosMagica
         public override void StartPre(ICoreAPI api)
         {
             AtmosMagicaCore.atmos = new Atmosphere();
+            // register types
+            new Environment.Types.ElementalMagica();
+            new Environment.Types.NaturaMagica();
+            new Environment.Types.SourceMagica();
         }
 
         public override void Start(ICoreAPI api)
