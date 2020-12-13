@@ -67,7 +67,7 @@
     <Compile Include="Environment\Types\ElementalMagica.cs" />
     <Compile Include="Environment\IMagicaComponent.cs" />
     <Compile Include="Environment\Magica.cs" />
-    <Compile Include="Environment\Types\MagicaType.cs" />
+    <Compile Include="Environment\MagicaType.cs" />
     <Compile Include="Environment\Types\NaturaMagica.cs" />
     <Compile Include="Environment\Types\SourceMagica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
