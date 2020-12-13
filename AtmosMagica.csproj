@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="AtmosMagicaCore.cs" />
     <Compile Include="Environment\Atmosphere.cs" />
+    <Compile Include="Environment\IMagicaConverter.cs" />
+    <Compile Include="Environment\IMagicaHolder.cs" />
     <Compile Include="Environment\Types\ElementalMagica.cs" />
     <Compile Include="Environment\IMagicaComponent.cs" />
     <Compile Include="Environment\Magica.cs" />
@@ -74,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Structure.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
